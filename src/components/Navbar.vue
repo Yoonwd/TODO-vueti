@@ -47,7 +47,8 @@
                     </p>
                 </v-flex>
                 <v-flex class="mt-4 mb-3">
-                    <Popup @projectAdded="snackbar = true" /> // emit한 커스텀 이벤트 리스닝
+                    <Popup @projectAdded="snackbar = true" /> 
+                    <!-- emit한 커스텀 이벤트 리스닝 -->
                 </v-flex>
             </v-layout>
             <v-list>
